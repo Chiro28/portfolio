@@ -29,6 +29,12 @@ body{
     align-items: center;
 }
 
+@media screen AND (max-width: 900px){  
+    .nav-links{
+        flex-direction: column;
+    }
+}
+
 .nav-links li{
     display: inline-flex;
     justify-content: flex-start;
@@ -37,10 +43,16 @@ body{
     margin: 2px;
 }
 
-@media screen AND (max-width: 900px){  
-    
+
+.nav-links li a{
+    text-decoration: none;
+    color: black;
 }
 
+.header-boton-contacto{
+    text-decoration: none;
+    color: white;
+}
 
 /*-----------Footer-----------*/
 
@@ -50,27 +62,24 @@ body{
     background-color: #777;
     justify-content: center;
     align-items: center;
-    height: 120px;
-    
-    /*dl*/
-    border: 2px solid black;
+    height: 100px;
+    border: 2px solid black; /*dl*/
 }
 
 .footer-flex-items{
-    padding: 10px;
-    /*dl*/
-    border: 2px solid;
+    margin: 4px;
+    border: 2px solid; /*dl*/
 }
 
 .footer-iconos{
     display: flex;
-    padding: 5px;
 }
 
 .footer-iconos a{
-    padding: 8px;
+    padding: 5px;
 }
 
 .footer-flex-container p{
     color: white;
+    padding: 5px;
 }

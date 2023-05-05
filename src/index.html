@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-    <link href="./css/styles-header.css" rel="stylesheet">
+    <link href="./css/styles-header-footer.css" rel="stylesheet">
+    <link href="./css/styles-content.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -14,36 +15,33 @@
                     XXXXXX
                 </div>
                 <ul class="nav-flex-item nav-links">
-                    <li>Inicio</li>
-                    <li>Sobre mi</li>
-                    <li> Habilidades</li>
-                    <li>Proyectos</li>
-                    <li>Contacto</li>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#sobremi">Sobre mi</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
             <div>
                 <div>
-                    Hola soy
-                    Jassir Rios
-                    Desarrollador Web
+                    <h3>Hola soy</h3>
+                    <h1>Jassir Rios</h1>
+                    <h3>Desarrollador Web</h3>
                 </div>
-                <div class="header-boton">
-                    <input type="submit" value="CONTÁCTAME">
-                </div>
-                
+                <a href="#contacto" class="header-boton-contacto">Contáctame</a>
             </div>
     </header>
     <div class="content">
-        <div id="sobremi">
+        <div id="sobremi" class="content-element">
             <h2>Sobre mi</h2>
         </div>
-        <div id="habilidades">
+        <div id="habilidades" class="content-element">
             <h2>Habilidaes</h2>
         </div>
-        <div id="proyectos">
+        <div id="proyectos" class="content-element">
             <h2>Proyectos</h2>
         </div>
-        <div id="contacto">
+        <div id="contacto" class="content-element">
             <h2>Contacto</h2>
         </div>
     </div>
