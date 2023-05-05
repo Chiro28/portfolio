@@ -7,6 +7,7 @@
     <title>Portafolio</title>
     <link href="./css/styles-header-footer.css" rel="stylesheet">
     <link href="./css/styles-content.css" rel="stylesheet">
+    <link href="./css/styles-form.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -43,6 +44,14 @@
         </div>
         <div id="contacto" class="content-element">
             <h2>Contacto</h2>
+            <form action="" method="post" class="contacto-formulario">
+                <div class="contacto-inputs contacto-items">
+                    <input type="text" id="asunto" name="asunto">
+                    <input type="email" id="email" name="email">
+                </div>
+                <textarea id="mensaje" name="mensaje" class="contacto-items"></textarea>
+                <button type="submit" class="contacto-items">Enviar</button>
+            </form>
         </div>
     </div>
     <footer class="footer-flex-container">
