@@ -17,6 +17,7 @@
     justify-content: space-between;
     gap: inherit;
     flex-wrap: wrap;
+    flex-direction: column;
   }
   
   @media (max-width: 800px) {
