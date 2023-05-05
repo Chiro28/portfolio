@@ -9,24 +9,30 @@
     
 }
 
-.contacto-items{
+/*.contacto-items{
+    justify-content: center;
+    margin: 5px;
+    width: 100%;
+    border: 2px solid blue; /*dl*/
+/*}      lo fusione con el de abajo*/
+
+.contacto-inputs{
+    display: flex;
+    justify-content: space-between;
     justify-content: center;
     margin: 5px;
     width: 100%;
     border: 2px solid blue; /*dl*/
 }
 
-.contacto-inputs{
-    display: flex;
-    justify-content: space-between;
-}
-
-.contacto-items input{
+/*.contacto-inputs input{
     width: 100%;
     height: 30px;
     border: 2px solid pink; /*dl*/
+/*}*/
+.contacto-inputs input{
+    flex: 1;
 }
-
 @media screen AND (max-width: 700px){  
     .contacto-inputs{
         flex-direction: column;

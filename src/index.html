@@ -101,15 +101,22 @@
         <div id="contacto" class="content-element">
             <h2>Contacto</h2>
             <form action="" method="post" class="contacto-formulario">
+                <!-- 
                 <div class="contacto-inputs contacto-items">
                     <input type="text" id="asunto" name="asunto">
                     <input type="email" id="email" name="email">
                 </div>
-                <textarea id="mensaje" name="mensaje" class="contacto-items"></textarea>
-                <button type="submit" class="contacto-items">Enviar</button>
+                -->
+                <!-- fusione contacto-items con contacto-inputs-->
+                <div class="contacto-inputs">
+                    <input type="text" id="asunto" name="asunto">
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <!-- borre las clases, ya que el mensaje y el submit ya son parte del div flex contacto-formualrio-->
+                <textarea id="mensaje" name="mensaje"></textarea>
+                <button type="submit">Enviar</button>
             </form>
-            <div class="content-type4">
-            </div>
         </div>
     </div>
     <footer class="footer-flex-container">
