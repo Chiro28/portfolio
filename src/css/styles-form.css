@@ -12,7 +12,7 @@
 .contacto-items{
     justify-content: center;
     margin: 5px;
-    width: 80%;
+    width: 100%;
     border: 2px solid blue; /*dl*/
 }
 
@@ -27,22 +27,22 @@
     border: 2px solid pink; /*dl*/
 }
 
-.contacto-formulario textarea{
-    width: 80%;
-    height: 125px;
-}
-
-.contacto-formulario button{
-    width: 100px;
-}
-
 @media screen AND (max-width: 700px){  
     .contacto-inputs{
         flex-direction: column;
     }
 
     .contacto-items input{
-        width: 95%;
-        margin: 5px;
+        margin: 5px 0px;
     }
+}
+
+.contacto-formulario textarea{
+    width: 100%;
+    height: 125px;
+}
+
+.contacto-formulario button{
+    width: 100px;
+    height: 30px;
 }
