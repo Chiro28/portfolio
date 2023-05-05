@@ -49,6 +49,14 @@ body{
     color: black;
 }
 
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid orange; /*dl*/
+    margin: 5px; /*dl*/
+}
+
 .header-boton-contacto{
     text-decoration: none;
     color: white;
