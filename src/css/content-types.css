@@ -28,8 +28,39 @@
 
 
 .content-type2{
-
+    display: flex;
+    flex-direction: column;
+    padding: inherit;
+    gap: inherit;
 }
+.content-type2 .small-navbar{
+    border: 2px solid white;  /*dl*/
+    display:flex;
+    justify-content: flex-start ;
+    gap: inherit;
+    padding: inherit;
+}
+
+.content-type2 .logo-list{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;  /*dl*/
+    padding: inherit;
+    gap: 41px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.logo-list .slot{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: inherit;
+    border: 2px solid white;  /*dl*/
+}
+ .slot img{
+    width: 150px;
+ }
 
 .content-type3{
     display: flex;
