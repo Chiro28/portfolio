@@ -1,28 +1,40 @@
 .content{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-    gap: 20px;
-    border: 2px solid white; /*dl*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+  border: 2px solid white; /*dl*/
 }
 
 .content-element {
-    flex-basis: calc(33.33% - 20px);
-    border: 1px solid #ddd; /*dl*/ 
-    border-radius: 5px; /*dl*/
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: inherit;
-    flex-wrap: wrap;
+  flex-basis: calc(33.33% - 20px);
+  border: 1px solid #ddd; /*dl*/ 
+  border-radius: 5px; /*dl*/
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: inherit;
+}
+
+.imagen-proyecto{
+  width: 100%;
+  max-width: 335px;
+  max-height: 335px;
+}
+
+.imagen-personal{
+  width: 100%;
+  max-width: 300px;
+  max-height: 335px;
+}
+
+/*Ya se encuentra en dirección columna*/
+/*
+@media screen AND (max-width: 800px) {
+  .content-element {
     flex-direction: column;
   }
-  
-  @media (max-width: 800px) {
-    .content-element {
-      flex-direction: column;
-    }
-  }
+}
+*/

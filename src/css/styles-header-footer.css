@@ -29,9 +29,13 @@ body{
     align-items: center;
 }
 
-@media screen AND (max-width: 700px){  
-    .nav-links{
+@media screen AND (max-width: 800px){  
+    .nav-flex-container{
         flex-direction: column;
+        justify-content: flex-start;
+    }
+    .nav-links{
+        flex-wrap: wrap;
     }
 }
 

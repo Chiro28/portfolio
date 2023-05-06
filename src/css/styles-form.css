@@ -20,8 +20,9 @@
     display: flex;
     justify-content: space-between;
     justify-content: center;
-    margin: 5px;
+    margin: 10px;
     width: 100%;
+    gap: 25px;
     border: 2px solid blue; /*dl*/
 }
 
@@ -33,9 +34,10 @@
 .contacto-inputs input{
     flex: 1;
 }
-@media screen AND (max-width: 700px){  
+@media screen AND (max-width: 800px){  
     .contacto-inputs{
         flex-direction: column;
+        gap: 8px;
     }
 
     .contacto-items input{
@@ -51,4 +53,5 @@
 .contacto-formulario button{
     width: 100px;
     height: 30px;
+    margin-top: 10px;
 }
