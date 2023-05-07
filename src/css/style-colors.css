@@ -1,0 +1,63 @@
+.body {
+    color: white;
+    background-color: rgb(16, 16, 16);
+}
+/* NAVBAR */
+.nav-links li a{
+    color: white;
+}
+/* PRESENTACION */
+.presentacion{
+    background-image: url(../../assets/img/banner.jpg);
+    background-position: center
+}
+.presentacion h1{
+    font-size: 8rem;
+    text-shadow: rgb(0, 0, 0) 0px 0px 15px;
+}
+.presentacion h3{
+    font-size: 3rem;
+}
+/* SOBREMI */
+#sobremi .subtitle h3{
+    color:rgb(16, 202, 209)
+}
+#sobremi .subtitle .content-text{
+    color:rgb(167,167,167)
+}
+/* HABILIDADES */
+.small-navbar a{
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+}
+#habilidades{
+    background-color: rgb(25,25,25);
+}
+#habilidades .logo-list {
+    background-color: rgb(34,34,34);
+}
+#habilidades .slot {
+    background-color: rgb(25,25,25);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 4px
+}
+/* PROYECTOS */
+.project {
+    background-color: rgb(25,25,25);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 4px
+}
+
+.project .title{
+    color:rgb(16, 202, 209)
+}
+.project .content-text{
+    color:rgb(167,167,167)
+}
+/* FORMULARIO */
+.contacto-formulario{
+    background-color: rgb(34,34,34);
+}
+
+.contacto-formulario #mensaje,#asunto,#email{
+    background-color: rgba(0, 0, 0, 0.06)
+}
+/* FOOTER */
