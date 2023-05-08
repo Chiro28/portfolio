@@ -22,6 +22,10 @@ font-family: rubik;
 .content h2{
     font-family: josefinsans;
 }
+.nav-links li a{
+    color: white;
+    font-family: poppins;
+}
 /*Presentacion*/
 .presentacion h3{
     font-family: rubik;

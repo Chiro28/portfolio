@@ -5,6 +5,7 @@
 /* NAVBAR */
 .nav-links li a{
     color: white;
+    font-size: 1.3rem;
 }
 
 .nav-flex-container{
@@ -30,6 +31,7 @@
 .presentacion h3{
     font-size: 3rem;
 }
+
 /* SOBREMI */
 #sobremi .subtitle h3{
     color:rgb(16, 202, 209)
@@ -49,25 +51,9 @@
 #sobremi .content-type1 p{
     font-size: 1.3rem;
 }
-/* HABILIDADES */
-.small-navbar a{
-    text-decoration: none;
-    color: rgb(167, 167, 167);
+#sobremi #boton-cv{
+    font-size: 1rem;
 }
-#habilidades{
-    background-color: rgb(25,25,25);
-}
-#habilidades h2{
-    font-size: 5rem;
-}
-#habilidades .logo-list {
-    background-color: rgb(34,34,34);
-}
-#habilidades .slot {
-    background-color: rgb(34, 34, 34);
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 4px
-}
-
 #boton-cv{
     background-color: transparent;
     text-decoration: none;
@@ -82,6 +68,28 @@
     border-color: rgba(223, 10, 3, 0.877);
 }
 
+/* HABILIDADES */
+.small-navbar button{
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+    background-color: transparent;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 1rem;
+}
+#habilidades{
+    background-color: rgb(25,25,25);
+}
+#habilidades h2{
+    font-size: 5rem;
+}
+#habilidades .logo-list {
+    background-color: rgb(34,34,34);
+}
+#habilidades .slot {
+    background-color: rgb(34, 34, 34);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 4px
+}
 /* PROYECTOS */
 #proyectos h2{
     font-size: 5rem;
@@ -96,9 +104,17 @@
     font-size: 3rem;
 }
 .project .content-text{
-    color:rgb(167,167,167)
+    color:rgb(167,167,167);
+    font-size: 1rem;
+}
+.project-footer{
+    color:rgb(209, 23, 16);
+    font-size: 1rem;
 }
 /* FORMULARIO */
+#contacto h2{
+    font-size: 5rem;
+}
 .contacto-formulario{
     background-color: rgb(34,34,34);
 }
