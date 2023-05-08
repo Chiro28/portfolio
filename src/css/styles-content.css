@@ -29,12 +29,3 @@
   max-width: 300px;
   max-height: 335px;
 }
-
-/*Ya se encuentra en dirección columna*/
-/*
-@media screen AND (max-width: 800px) {
-  .content-element {
-    flex-direction: column;
-  }
-}
-*/
