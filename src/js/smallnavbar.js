@@ -5,7 +5,8 @@ var button3 = document.getElementById('small-navbar-boton3');
 var div1 = document.getElementById('TECNOLOGIAS-PRINCIPALES');
 var div2 = document.getElementById('TECNOLOGIAS-COMPLEMENTARIAS');
 var div3 = document.getElementById('DISEÑO-GRAFICO');
-
+div2.style.display = 'none';
+div3.style.display = 'none';
 // Add click event listeners to the buttons
 button1.addEventListener('click', function() {
   div1.style.display = 'flex';
