@@ -1,0 +1,60 @@
+@font-face {
+    font-family: josefinsans;
+    src: url(../../assets/fonts/JosefinSans-SemiBold.ttf);
+}
+/*@font-face {
+font-family: poppins;
+src: url(../../assets/fonts/Poppins-Regular.ttf);
+}*/
+@font-face {
+    font-family: poppins;
+    src: url(../../assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+font-family: rubik;
+    src: url(../../assets/fonts/Rubik-Regular.ttf);
+}
+@font-face {
+    font-family: spliton;
+    src: url(../../assets/fonts/SplitOn.ttf);
+}
+/*General*/
+.content h2{
+    font-family: josefinsans;
+}
+/*Presentacion*/
+.presentacion h3{
+    font-family: rubik;
+}
+.presentacion h1{
+    font-family: josefinsans;
+}
+.presentacion a{
+    font-family: poppins;
+}
+/*SobreMi*/
+.content-type1 .subtitle {
+    font-family: poppins;
+}
+.content-type1 h2 {
+    font-family: rubik;
+}
+/*habilidades*/
+.content-type2 .slot a{
+    font-size: 1.2rem;
+    font-family: poppins;
+
+}
+/*proyectos*/
+.content-type3 .project {
+    font-family: poppins;
+    font-size: 1.2rem;
+}
+.content-type3 .project .title {
+    font-family: rubik;
+}
+
+/*contacto*/
+.contacto h2{
+ 
+}
