@@ -124,10 +124,6 @@
     flex: 2;
 }
 
-.content-text{
-    font-size: clamp(0.8em, 1.3vw, 1.7em);
-}
-
 .imagen{
    align-self: center;
 }
