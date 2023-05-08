@@ -36,11 +36,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 12px;
 }
 
 .nav-links li{
     display: flex;
-    border: 1px solid red;  /*dl*/
     padding: 5px;
     margin: 2px;
 }
