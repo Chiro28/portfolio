@@ -9,17 +9,19 @@ body{
 }
 
 .nav-flex-container{
-    border: 5px solid;  /*dl*/
+    border: 1px solid;  /*dl*/
     display: flex;
-    padding: 5px 15px;
-    max-width: 1500px;
-    margin: 0 auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    right: 0;
     justify-content: space-between;
     align-items: center;
 }
 
 .nav-flex-item{
-    border: 2px solid;  /*dl*/
+    border: 1px solid;  /*dl*/
     padding: 4px;
 }
 
@@ -41,8 +43,7 @@ body{
 }
 
 .nav-links li{
-    display: inline-flex;
-    justify-content: flex-start;
+    display: flex;
     border: 1px solid red;  /*dl*/
     padding: 5px;
     margin: 2px;
@@ -58,8 +59,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 65px;
     border: 2px solid orange; /*dl*/
-    margin: 5px; /*dl*/
 }
 
 .presentacion div{
