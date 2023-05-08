@@ -1,6 +1,8 @@
-.body {
+body {
     color: white;
     background-color: rgb(16, 16, 16);
+    max-width: 1500px;
+    margin: auto;
 }
 /* NAVBAR */
 .nav-links li a{
