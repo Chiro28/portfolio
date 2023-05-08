@@ -25,6 +25,18 @@
 #sobremi .subtitle .content-text{
     color:rgb(167,167,167)
 }
+#sobremi h2{
+    font-size: 5rem;
+}
+#sobremi .content-type1 h2{
+    font-size: 3rem;
+}
+#sobremi .content-type1 h3{
+    font-size: 1.5rem;
+}
+#sobremi .content-type1 p{
+    font-size: 1.3rem;
+}
 /* HABILIDADES */
 .small-navbar a{
     text-decoration: none;
@@ -32,6 +44,9 @@
 }
 #habilidades{
     background-color: rgb(25,25,25);
+}
+#habilidades h2{
+    font-size: 5rem;
 }
 #habilidades .logo-list {
     background-color: rgb(34,34,34);
