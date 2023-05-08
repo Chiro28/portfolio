@@ -13,15 +13,16 @@ body{
 }
 
 .nav-flex-container{
-    border: 1px solid;  /*dl*/
+    z-index: 1;
     display: flex;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0px;
     right: 0;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 4px;
 }
 
 .nav-flex-item{
@@ -36,6 +37,31 @@ body{
     align-items: center;
 }
 
+.nav-links li{
+    display: flex;
+    border: 1px solid red;  /*dl*/
+    padding: 5px;
+    margin: 2px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+}
+
+#boton-menu{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    text-align: center;
+
+}
+
 @media screen AND (max-width: 800px){  
     .nav-flex-container{
         flex-direction: column;
@@ -44,19 +70,10 @@ body{
     .nav-links{
         flex-wrap: wrap;
     }
-}
 
-.nav-links li{
-    display: flex;
-    border: 1px solid red;  /*dl*/
-    padding: 5px;
-    margin: 2px;
-}
-
-
-.nav-links li a{
-    text-decoration: none;
-    color: black;
+    #boton-menu{
+        display: flex;
+    }
 }
 
 .presentacion{

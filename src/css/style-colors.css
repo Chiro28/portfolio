@@ -12,6 +12,12 @@
     backdrop-filter: blur(5px);
 }
 
+#boton-menu{
+    background-color: transparent;
+    border: none;
+    filter: invert();
+}
+
 /* PRESENTACION */
 .presentacion{
     background-image: url(../../assets/img/banner.jpg);
@@ -58,7 +64,7 @@
     background-color: rgb(34,34,34);
 }
 #habilidades .slot {
-    background-color: rgb(25,25,25);
+    background-color: rgb(34, 34, 34);
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 4px
 }
 
