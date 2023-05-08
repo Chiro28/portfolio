@@ -53,6 +53,7 @@
     justify-content: flex-start ;
     gap: inherit;
     padding: inherit;
+    flex-wrap: wrap;
 }
 
 .content-type2 .logo-list{

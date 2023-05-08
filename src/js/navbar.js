@@ -1,10 +1,16 @@
-var nav_button = document.getElementById('boton-menu');
-var nav_ul = document.getElementById('nav-flex-item nav-links');
+let nav_button = document.getElementById('boton-menu');
+let nav_ul = document.getElementById('nav-lista');
 
-// Add click event listeners to the buttons
+let menu_visible = false;
+/*
 nav_button.addEventListener('click', function() {
-  div1.style.display = 'flex';
-  div2.style.display = 'none';
-  div3.style.display = 'none';
+    if(!menu_visible){
+        nav_ul.style.display = 'flex';
+        menu_visible = true;
+    } else{
+        nav_ul.style.display = 'none';
+        menu_visible = false;
+    }
 });
 
+*/
