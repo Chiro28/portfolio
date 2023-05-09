@@ -99,24 +99,39 @@ body {
 }
 
 /* HABILIDADES */
+#small-navbar-boton1, #small-navbar-boton2, #small-navbar-boton3{
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+}
+
+#small-navbar-span1, #small-navbar-span2, #small-navbar-span3{
+    position: absolute;
+    left: 1px;
+    bottom: 2px;
+    height: 2px;
+    width: 100%;
+    background-color: rgb(209, 23, 16);
+    transition: all 0.4s ease-out;
+}
+
 .small-navbar button {
-    padding: 12px 50px;
-    border: none;
-    border-radius: 5px;
-    background-color: #1abc9c;
-    color: #fff;
-    font-size: 18px;
-    outline: none;
-    cursor: pointer;
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+    background-color: transparent;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 1rem;
 
     /* We need this to position
         span inside button */
+        
     position: relative;
     overflow: hidden;
     box-shadow: 6px 7px 40px -4px
             rgba(0, 0, 0, 0.2);
   }
-.small-navbar button span {
+.small-navbar button .ripple {
     position: absolute;
     border-radius: 50%;
     /* To make it round */

@@ -23,9 +23,9 @@ button3.addEventListener('click', function() {
   div2.style.display = 'none';
   div3.style.display = 'flex';
 });
-
+//////////////////////////////////////////////////////////////////
 const btn = document.querySelectorAll(".small-navbar button");
-W// Listen for click event
+// Listen for click event
 for (let i = 0; i < btn.length; i++) {
   btn[i].onclick = function (e) {
 
@@ -54,3 +54,48 @@ for (let i = 0; i < btn.length; i++) {
 
   };
 };
+/////////////////////////////////////////////////////
+let nav_button1 = document.getElementById('small-navbar-boton1');
+let nav_button2 = document.getElementById('small-navbar-boton2');
+let nav_button3 = document.getElementById('small-navbar-boton3');
+
+let nav_span1 = document.getElementById('small-navbar-span1');
+let nav_span2 = document.getElementById('small-navbar-span2');
+let nav_span3 = document.getElementById('small-navbar-span3');
+
+nav_span1.style.display = 'none';
+nav_span2.style.display = 'none';
+nav_span3.style.display = 'none';
+
+nav_button1.addEventListener('click', function() {
+    nav_button1.style.color = 'red';
+    nav_button2.style.color = 'white';
+    nav_button3.style.color = 'white';
+
+    nav_span1.style.display = 'block';
+    nav_span2.style.display = 'none';
+    nav_span3.style.display = 'none';
+
+});
+
+nav_button2.addEventListener('click', function() {
+    nav_button1.style.color = 'white';
+    nav_button2.style.color = 'red';
+    nav_button3.style.color = 'white';
+
+    nav_span1.style.display = 'none';
+    nav_span2.style.display = 'block';
+    nav_span3.style.display = 'none'; 
+
+});
+
+nav_button3.addEventListener('click', function() {
+    nav_button1.style.color = 'white';
+    nav_button2.style.color = 'white';
+    nav_button3.style.color = 'red';
+
+    nav_span1.style.display = 'none';
+    nav_span2.style.display = 'none';
+    nav_span3.style.display = 'block';
+
+});
