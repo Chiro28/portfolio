@@ -186,21 +186,21 @@
         <div id="contacto" class="content-element">
             <h2 class="titulo-seccion">Contacto</h2>
             <form action="" method="post" class="contacto-formulario">
-                <!-- 
-                <div class="contacto-inputs contacto-items">
-                    <input type="text" id="asunto" name="asunto">
-                    <input type="email" id="email" name="email">
-                </div>
-                -->
-                <!-- fusione contacto-items con contacto-inputs-->
-                <div class="contacto-inputs">
-                    <input type="text" id="asunto" name="asunto">
-                    <input type="email" id="email" name="email">
-                </div>
-
-                <!-- borre las clases, ya que el mensaje y el submit ya son parte del div flex contacto-formualrio-->
-                <textarea id="mensaje" name="mensaje"></textarea>
-                <button type="submit">Enviar</button>
+                <p id="form-nombre">
+                    <label for="">Ingresa tu nombre *</label>
+                    <input type="text" id="nombre" name="nombre">
+                </p>
+                <p id="form-email">
+                    <label for="">Ingresa tu correo *</label>
+                    <input type="email" id="correo" name="correo">
+                </p>
+                <p id="form-comentario">
+                    <label for="">Dejame tus comentarios *</label>
+                    <textarea id="comentario" name="comentario"></textarea>
+                </p>
+                <p id="form-boton">
+                    <button type="submit">Enviar</button>
+                </p>
             </form>
         </div>
     </div>
